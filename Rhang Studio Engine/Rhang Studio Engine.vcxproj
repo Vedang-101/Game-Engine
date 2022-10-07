@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\ext\freetype-gl\platform.c" />
+    <ClCompile Include="Core\ext\freetype-gl\texture-atlas.c" />
+    <ClCompile Include="Core\ext\freetype-gl\texture-font.c" />
+    <ClCompile Include="Core\ext\freetype-gl\vector.c" />
+    <ClCompile Include="Core\ext\freetype\src\autofit\autofit.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftbase.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftbbox.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftbitmap.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftdebug.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftfstype.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftgasp.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftglyph.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftgxval.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftinit.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftlcdfil.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftmm.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftotval.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftpatent.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftpfr.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftstroke.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftsynth.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftsystem.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\fttype1.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftwinfnt.c" />
+    <ClCompile Include="Core\ext\freetype\src\base\ftxf86.c" />
+    <ClCompile Include="Core\ext\freetype\src\bdf\bdf.c" />
+    <ClCompile Include="Core\ext\freetype\src\cache\ftcache.c" />
+    <ClCompile Include="Core\ext\freetype\src\cff\cff.c" />
+    <ClCompile Include="Core\ext\freetype\src\cid\type1cid.c" />
+    <ClCompile Include="Core\ext\freetype\src\gzip\ftgzip.c" />
+    <ClCompile Include="Core\ext\freetype\src\lzw\ftlzw.c" />
+    <ClCompile Include="Core\ext\freetype\src\pcf\pcf.c" />
+    <ClCompile Include="Core\ext\freetype\src\pfr\pfr.c" />
+    <ClCompile Include="Core\ext\freetype\src\psaux\psaux.c" />
+    <ClCompile Include="Core\ext\freetype\src\pshinter\pshinter.c" />
+    <ClCompile Include="Core\ext\freetype\src\psnames\psmodule.c" />
+    <ClCompile Include="Core\ext\freetype\src\raster\raster.c" />
+    <ClCompile Include="Core\ext\freetype\src\sfnt\sfnt.c" />
+    <ClCompile Include="Core\ext\freetype\src\smooth\smooth.c" />
+    <ClCompile Include="Core\ext\freetype\src\truetype\truetype.c" />
+    <ClCompile Include="Core\ext\freetype\src\type1\type1.c" />
+    <ClCompile Include="Core\ext\freetype\src\type42\type42.c" />
+    <ClCompile Include="Core\ext\freetype\src\winfonts\winfnt.c" />
+    <ClCompile Include="Core\graphics\buffers\buffer.cpp" />
+    <ClCompile Include="Core\graphics\buffers\indexbuffer.cpp" />
+    <ClCompile Include="Core\graphics\buffers\vertexarray.cpp" />
+    <ClCompile Include="Core\graphics\camera.cpp" />
+    <ClCompile Include="Core\graphics\font\font.cpp" />
+    <ClCompile Include="Core\graphics\font\fontmanager.cpp" />
+    <ClCompile Include="Core\graphics\layers\group.cpp" />
+    <ClCompile Include="Core\graphics\layers\layer.cpp" />
+    <ClCompile Include="Core\graphics\renderables\label.cpp" />
+    <ClCompile Include="Core\graphics\renderables\sprite.cpp" />
+    <ClCompile Include="Core\graphics\renderers\batchrenderer2d.cpp" />
+    <ClCompile Include="Core\graphics\shader.cpp" />
+    <ClCompile Include="Core\graphics\textures\texture.cpp" />
+    <ClCompile Include="Core\graphics\window.cpp" />
+    <ClCompile Include="Core\input\desktop.cpp" />
+    <ClCompile Include="Core\maths\mat4.cpp" />
+    <ClCompile Include="Core\maths\vec2.cpp" />
+    <ClCompile Include="Core\maths\vec3.cpp" />
+    <ClCompile Include="Core\maths\vec4.cpp" />
+    <ClCompile Include="sandbox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\animations\virtualanimation.h" />
+    <ClInclude Include="Core\animations\spriteanimation.h" />
+    <ClInclude Include="Core\ext\freetype-gl\freetype-gl.h" />
+    <ClInclude Include="Core\ext\freetype-gl\opengl.h" />
+    <ClInclude Include="Core\ext\freetype-gl\platform.h" />
+    <ClInclude Include="Core\ext\freetype-gl\texture-atlas.h" />
+    <ClInclude Include="Core\ext\freetype-gl\texture-font.h" />
+    <ClInclude Include="Core\ext\freetype-gl\vec234.h" />
+    <ClInclude Include="Core\ext\freetype-gl\vector.h" />
+    <ClInclude Include="Core\ext\freetype\include\config\ftconfig.h" />
+    <ClInclude Include="Core\ext\freetype\include\config\ftheader.h" />
+    <ClInclude Include="Core\ext\freetype\include\config\ftmodule.h" />
+    <ClInclude Include="Core\ext\freetype\include\config\ftoption.h" />
+    <ClInclude Include="Core\ext\freetype\include\config\ftstdlib.h" />
+    <ClInclude Include="Core\ext\freetype\include\ft2build.h" />
+    <ClInclude Include="Core\graphics\buffers\buffer.h" />
+    <ClInclude Include="Core\graphics\buffers\indexbuffer.h" />
+    <ClInclude Include="Core\graphics\buffers\vertexarray.h" />
+    <ClInclude Include="Core\graphics\camera.h" />
+    <ClInclude Include="Core\graphics\font\font.h" />
+    <ClInclude Include="Core\graphics\font\fontmanager.h" />
+    <ClInclude Include="Core\graphics\layers\group.h" />
+    <ClInclude Include="Core\graphics\layers\layer.h" />
+    <ClInclude Include="Core\graphics\layers\tilelayer.h" />
+    <ClInclude Include="Core\graphics\renderables\label.h" />
+    <ClInclude Include="Core\graphics\renderables\rendererable2d.h" />
+    <ClInclude Include="Core\graphics\renderables\sprite.h" />
+    <ClInclude Include="Core\graphics\renderers\batchrenderer2d.h" />
+    <ClInclude Include="Core\graphics\renderers\renderer2d.h" />
+    <ClInclude Include="Core\graphics\shader.h" />
+    <ClInclude Include="Core\graphics\textures\spritesheet.h" />
+    <ClInclude Include="Core\graphics\textures\texture.h" />
+    <ClInclude Include="Core\graphics\window.h" />
+    <ClInclude Include="Core\input\desktop.h" />
+    <ClInclude Include="Core\maths\mat4.h" />
+    <ClInclude Include="Core\maths\maths.h" />
+    <ClInclude Include="Core\maths\maths_func.h" />
+    <ClInclude Include="Core\maths\vec2.h" />
+    <ClInclude Include="Core\maths\vec3.h" />
+    <ClInclude Include="Core\maths\vec4.h" />
+    <ClInclude Include="Core\transform\transform.h" />
+    <ClInclude Include="Core\utils\fileutils.h" />
+    <ClInclude Include="Core\utils\glerror.h" />
+    <ClInclude Include="Core\utils\imageload.h" />
+    <ClInclude Include="Core\utils\logger.h" />
+    <ClInclude Include="Core\utils\timer.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{10CC351F-97A8-4412-A6FC-6AECB959BE15}</ProjectGuid>
+    <RootNamespace>RhangStudioEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Configuration)\intermediates\</IntDir>
+    <IncludePath>$(ProjectDir)Core\ext\freetype\include;$(SolutionDir)Dependencies\FreeImage\include;$(SolutionDir)Dependencies\GLEW\include;$(SolutionDir)Dependencies\GLFW\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencies\FreeImage\lib;$(SolutionDir)Dependencies\GLEW\lib;$(SolutionDir)Dependencies\GLFW\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Configuration)\intermediates\</IntDir>
+    <IncludePath>$(ProjectDir)Core\ext\freetype\include;$(SolutionDir)Dependencies\FreeImage\include;$(SolutionDir)Dependencies\GLEW\include;$(SolutionDir)Dependencies\GLFW\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencies\FreeImage\lib;$(SolutionDir)Dependencies\GLEW\lib;$(SolutionDir)Dependencies\GLFW\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>GLEW_STATIC;FT2_BUILD_LIBRARY;WIN32;_LIB;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NDEBUG;ENGINE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>GLEW_STATIC;FT2_BUILD_LIBRARY;WIN32;_LIB;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

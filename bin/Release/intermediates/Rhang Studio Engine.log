@@ -1,0 +1,27 @@
+﻿  camera.cpp
+h:\projects\github\gameengine\rhangstudioengine\rhang studio engine\core\graphics\camera.h(24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+h:\projects\github\gameengine\rhangstudioengine\rhang studio engine\core\graphics\camera.h(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  font.cpp
+h:\projects\github\gameengine\rhangstudioengine\rhang studio engine\core\graphics\font\font.cpp(19): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  fontmanager.cpp
+h:\projects\github\gameengine\rhangstudioengine\rhang studio engine\core\graphics\font\fontmanager.cpp(28): warning C4018: '<': signed/unsigned mismatch
+  group.cpp
+  layer.cpp
+h:\projects\github\gameengine\rhangstudioengine\rhang studio engine\core\graphics\camera.h(24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+h:\projects\github\gameengine\rhangstudioengine\rhang studio engine\core\graphics\camera.h(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  label.cpp
+  sprite.cpp
+  batchrenderer2d.cpp
+h:\projects\github\gameengine\rhangstudioengine\rhang studio engine\core\graphics\renderers\batchrenderer2d.cpp(126): warning C4018: '<': signed/unsigned mismatch
+h:\projects\github\gameengine\rhangstudioengine\rhang studio engine\core\graphics\renderers\batchrenderer2d.cpp(150): warning C4018: '<': signed/unsigned mismatch
+  sandbox.cpp
+h:\projects\github\gameengine\rhangstudioengine\rhang studio engine\core\graphics\camera.h(24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+h:\projects\github\gameengine\rhangstudioengine\rhang studio engine\core\graphics\camera.h(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  94 of 2403 functions ( 3.9%) were compiled, the rest were copied from previous compilation.
+    9 functions were new in current compilation
+    75 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'H:\Projects\Github\GameEngine\RhangStudioEngine\bin\Release\vc120.pdb'; linking object as if no debug info
+  Rhang Studio Engine.vcxproj -> H:\Projects\Github\GameEngine\RhangStudioEngine\bin\Release\Rhang Studio Engine.exe

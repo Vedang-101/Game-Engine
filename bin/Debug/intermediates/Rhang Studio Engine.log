@@ -1,0 +1,86 @@
+﻿  platform.c
+  texture-atlas.c
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\ext\freetype-gl\texture-atlas.c(131,38): warning C4090: '=': different 'const' qualifiers
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\ext\freetype-gl\texture-atlas.c(233,23): warning C4018: '<': signed/unsigned mismatch
+  texture-font.c
+  vector.c
+  autofit.c
+  ftbase.c
+  ftbbox.c
+  ftbitmap.c
+  ftdebug.c
+  ftfstype.c
+  ftgasp.c
+  ftglyph.c
+  ftgxval.c
+  ftinit.c
+  ftlcdfil.c
+  ftmm.c
+  ftotval.c
+  ftpatent.c
+  ftpfr.c
+  ftstroke.c
+  Generating Code...
+  Compiling...
+  ftsynth.c
+  ftsystem.c
+  fttype1.c
+  ftwinfnt.c
+  ftxf86.c
+  bdf.c
+  ftcache.c
+  cff.c
+  type1cid.c
+  ftgzip.c
+  ftlzw.c
+  pcf.c
+  pfr.c
+  psaux.c
+  pshinter.c
+  psmodule.c
+  raster.c
+  sfnt.c
+  smooth.c
+  truetype.c
+  Generating Code...
+  Compiling...
+  type1.c
+  type42.c
+  winfnt.c
+  Generating Code...
+  buffer.cpp
+  indexbuffer.cpp
+  vertexarray.cpp
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\buffers\vertexarray.cpp(11,22): warning C4018: '<': signed/unsigned mismatch
+  camera.cpp
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\camera.h(24,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\camera.h(25,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  font.cpp
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\font\font.cpp(19,59): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  fontmanager.cpp
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\font\fontmanager.cpp(28,22): warning C4018: '<': signed/unsigned mismatch
+  group.cpp
+  layer.cpp
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\camera.h(24,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\camera.h(25,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  label.cpp
+  sprite.cpp
+  batchrenderer2d.cpp
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\renderers\batchrenderer2d.cpp(126,22): warning C4018: '<': signed/unsigned mismatch
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\renderers\batchrenderer2d.cpp(150,22): warning C4018: '<': signed/unsigned mismatch
+  shader.cpp
+  texture.cpp
+  window.cpp
+  desktop.cpp
+  mat4.cpp
+  vec2.cpp
+  vec3.cpp
+  vec4.cpp
+  sandbox.cpp
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\camera.h(24,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+G:\Projects\Github\GameEngine\RhangStudioEngine\Rhang Studio Engine\Core\graphics\camera.h(25,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'G:\Projects\Github\GameEngine\RhangStudioEngine\bin\Debug\vc120.pdb'; linking object as if no debug info
+  Rhang Studio Engine.vcxproj -> G:\Projects\Github\GameEngine\RhangStudioEngine\bin\Debug\Rhang Studio Engine.exe
