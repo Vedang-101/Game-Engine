@@ -1,7 +1,7 @@
 # Game-Engine-C++
 A 2D Game Engine project
 
-Game Engine is a set of libraries used to assist game developers to develop the game with out working on the framework essential to communicate with the operating system. This Game Engine is made as an intermediate library for the users to build games on top of. The library includes features including:
+Game Engine is a set of libraries used to assist game developers to develop the game with out working on the framework essential to communicate with the operating system. This Game Engine is made as an intermediate library for the users to build games on top of. The library is written with features including:
 - Window creation
 - Input Handling
 - Graphics Creation (OpenGL - 2D Quads)
