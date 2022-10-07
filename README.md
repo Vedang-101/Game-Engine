@@ -7,13 +7,14 @@ This Game Engine is made as an intermediate library for the users to build games
 Created graphics, input, window and handling libraries for project (Game Engine) having the following features: 
 - Window creation
 - Input Handling
+- Logging Support
 - Graphics Creation (OpenGL - 2D Quads)
 - Programmable Shader support
 - Animation System (using sprite sheets)
 - .ttf and .otf font support (using true type font dependency)
 - Layer sorting
-- Batching quads to reduce draw calls to improove performace and frame rate
-- Grouping and heirarchy system for game objects
+- Batching quads to reduce draw calls to improve performace and frame rate
+- Grouping and hierarchy system for game objects
 - Textures using UV coordinates (.jpeg and .png supported textures)
 - Sandbox system to create game proects using the engine
 
