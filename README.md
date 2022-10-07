@@ -19,6 +19,6 @@ Game Engine is a set of libraries used to assist game developers to develop the 
 
 https://user-images.githubusercontent.com/45897291/194648577-1498d870-4d92-419d-b900-c094f412486f.mp4
 
-## Run
+## How To Run
 - run bin/Debug/RhangStudioEngine.exe (Layers and batch rendering test)
 - run bin/Release/RhangStudioEngine.exe (Animation and fonts test)
